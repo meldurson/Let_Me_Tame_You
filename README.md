@@ -2,6 +2,7 @@
 
 Complete overhaul of creature taming, extracted and expanded from **AllTameable**.
 
+ ### ❗Note: This is in beta, so there may be some bugs
 ---
 
 ## ✨ Features
@@ -39,9 +40,11 @@ This mod focuses purely on **taming mechanics**. If you want the full overhaul e
 ![Deer](https://raw.githubusercontent.com/meldurson/Let_Me_Tame_You/main/Pics/DeerHover_5to1Zoom.png)
 ## ⚙️ Configuration
 
-This mod is almost entirely controlled through the **YAML config files**.
+This mod is almost entirely controlled through the **YML config files**. 
 
-You can customize:
+Other general settings can be found in ```...Bepinex/config/meldurson.LetMeTameYou.cfg```
+
+**Through the YML you can customize:**
 
 * Taming time
 * Food preferences
@@ -51,7 +54,7 @@ You can customize:
 * Factions and hostility
 * Creature AI changes
 
- ## ❗📃 Explanation  and overview of how to format the **TameList** can be found on the **[wiki](https://github.com/meldurson/Let_Me_Tame_You/blob/main/Tamelist_YML_Wiki.md)** ❗
+ ## ❗📃 Explanation  and overview of how to format the **TameList YML files** can be found on the **[wiki](https://github.com/meldurson/Let_Me_Tame_You/blob/main/Tamelist_YML_Wiki.md)** ❗
 
 ---
 ### Example
@@ -101,6 +104,19 @@ Charred_Twitcher,Charred_Twitcher_Summoned:
 ```
 
 ---
+## 🍢 Items:
+
+There is currently 1 tool added by this mod. The recipe can be modified in the config file.
+<details>
+  <summary>Default Recipe</summary>
+  
+| Item      | ID | Required Items | Crafting Station |
+| ----------- | ----------- | ----------- |----------- |
+| Taming Tool      | LMTY_TamingTool       |1 Raw Meat, 1 Red Mushroom, 1 Carrot, 5 Resin | Workbench lvl 1
+
+
+</details>
+
 ## 🛠 Installation
 
 1. Install **BepInEx**
