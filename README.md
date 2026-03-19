@@ -36,7 +36,7 @@ This mod focuses purely on **taming mechanics**. If you want the full overhaul e
 
 ---
 
-
+![Deer](https://raw.githubusercontent.com/meldurson/Let_Me_Tame_You/main/Pics/DeerHover_5to1Zoom.png)
 ## ⚙️ Configuration
 
 This mod is almost entirely controlled through the **YAML config files**.
@@ -64,7 +64,7 @@ Wolf:
 ```
 ---
 ## 🔒 Progression Control
-
+![Progression](https://raw.githubusercontent.com/meldurson/Let_Me_Tame_You/main/Pics/DragonTower5to1.png)
 Gate taming behind boss progression:
 
 ```yaml
@@ -115,6 +115,7 @@ Config file will be created at:
 You can then edit this file to your hearts content!
 
 ---
+![Egg](https://raw.githubusercontent.com/meldurson/Let_Me_Tame_You/main/Pics/SeekerSoldierEgg_5to1.png)
 ## ⚠️ Compatibility
 
 ✔ Works with most mods
