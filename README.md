@@ -51,7 +51,7 @@ You can customize:
 * Factions and hostility
 * Creature AI changes
 
- ## 📃 Explanation  and overview of how to format the **TameList** can be found on the **[wiki](https://thunderstore.io/c/valheim/p/Meldurson/LetMeTameYou/wiki/)**
+ ## ❗📃 Explanation  and overview of how to format the **TameList** can be found on the **[wiki](https://github.com/meldurson/Let_Me_Tame_You/blob/main/Tamelist_YML_Wiki.md)** ❗
 
 ---
 ### Example
