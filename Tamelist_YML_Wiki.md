@@ -29,7 +29,6 @@ LetMeTameYou_Vanilla.yml
 LetMeTameYou_Monstrum.yml
 LetMeTameYou_Bestiary.yml
 LetMeTameYou_RtD.yml
-
 ```
 By default, if no other TameList .yml files are found, a currated default will be created for you that has all of the vanilla creatures:
 
