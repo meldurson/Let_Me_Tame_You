@@ -90,7 +90,7 @@ specialGroup: AllGoblin
 * `hostileToSelf` → tamed vs wild will fight
 * `specialGroup` → prevents friendly fire within a group of like creatures
 
-**Note:** ```hostileToSelf``` will override ```specialGroup```
+**Note:** ```specialGroup``` will override ```hostileToSelf```
 
 ---
 
