@@ -1,0 +1,157 @@
+
+## Groups
+
+group_Default:
+  fedDuration: 300
+  commandable: true
+  consumeSearchInterval: 10
+  pregnancyChance: 0.5
+
+group_RawCarnivoreT1_TW:
+  consumeItems: SerpentMeat,RawMeat,NeckTail,FishRaw,FoxMeat_TW,BearSteak_TW,LoxMeat,DeerMeat,WolfMeat,HareMeat
+
+group_RawCarnivoreT2_TW:
+  consumeItems: ArcticSerpentMeat_TW,ArcticWolfMeat_TW,MammothMeat_TW,ArcticBearSteak_TW
+
+group_CookedCarnivoreT1_TW:
+  consumeItems: CookedFoxMeat_TW,CookedBearSteak_TW,CookedMeat,CookedLoxMeat,Sausages,NeckTailGrilled,SerpentMeatCooked,FishCooked,CookedDeerMeat,BoarJerky,WolfJerky,CookedWolfMeat
+
+group_CookedCarnivoreT2_TW:
+  consumeItems: CookedArcticSerpentMeat_TW,CookedArcticWolfMeat_TW,CookedMammothMeat_TW,CookedArcticBearSteak_TW,DireWolfMeatSkewer_TW
+
+group_AllCarnivoreT1_TW:
+  consumeItems: SerpentMeat,RawMeat,NeckTail,FishRaw,FoxMeat_TW,BearSteak_TW,LoxMeat,DeerMeat,WolfMeat,HareMeat,CookedFoxMeat_TW,CookedBearSteak_TW,CookedMeat,CookedLoxMeat,Sausages,NeckTailGrilled,SerpentMeatCooked,FishCooked,CookedDeerMeat,BoarJerky,WolfJerky,CookedWolfMeat
+
+group_AllCarnivoreT2_TW:
+  consumeItems: ArcticSerpentMeat_TW,ArcticWolfMeat_TW,MammothMeat_TW,ArcticBearSteak_TW,AshenSharkMeat_TW,DimetrodonMeat_TW,ScorpidMeat_TW,CrabMeat_TW,CookedArcticSerpentMeat_TW,CookedArcticWolfMeat_TW,CookedMammothMeat_TW,CookedArcticBearSteak_TW,CookedAshenSharkMeat_TW,CookedDimetrodonMeat_TW,CookedScorpidMeat_TW,CookedCrabMeat_TW
+
+group_OresFood_TW:
+  consumeItems: TyraniumOre_TW,FlametalOre,Onyx_TW,Diamond_TW,Emerald_TW,Amethyst_TW,Topaz_TW,Sapphire_TW
+  
+group_OresFood_TW:
+  consumeItems: TyraniumOre_TW,FlametalOre,Onyx_TW,Diamond_TW,Emerald_TW,Amethyst_TW,Topaz_TW,Sapphire_TW
+
+group_Tier8:
+  tamingTime: 3100
+  pregnancyDuration: 200
+  growTime: 4000
+  maxCreatures: 5
+  fedDuration: 200
+##Monstrum Creatures
+
+Fox_TW:
+  groups: Tier1,RawCarnivoreT1_TW,SizeMedium
+
+Razorback_TW:
+  groups: Tier2,Vegetarian,SizeMedium
+
+BlackBear_TW:
+  groups: Tier2,RawCarnivoreT1_TW,SizeLarge
+  
+GDAncientShaman_TW:
+  groups: Tier3,SizeMedium
+  consumeItems: SerpentMeatCooked,NeckTailGrilled,CookedMeat,CookedFoxMeat_TW,CookedBearSteak_TW,CookedLoxMeat,Bread,Raspberry,Blueberries,Carrot,Turnip,Mushroom,Cloudberry,Honey,Mushroom,MushroomYellow,MushroomBlue,MinceMeatSauce,DeerStew,CookedDeerMeat,BoarJerky,BlackSoup,WolfMeatSkewer,WolfJerky,CookedWolfMeat,OnionSoup,Onion,CookedHareMeat
+
+RottingElk_TW:
+  groups: Tier3,RawCarnivoreT1_TW,SizeMedium
+  
+HelWraith_TW:
+  groups: Tier3,RawCarnivoreT1_TW,SizeMedium
+  
+Crawler_TW:
+  groups: Tier3,SizeMedium
+  consumeItems: Bloodbag,SerpentMeat,RawMeat,NeckTail,FishRaw,FoxMeat_TW,BearSteak_TW,LoxMeat,DeerMeat,WolfMeat,HareMeat
+  egg: chicken(1200:#D6E632:1.5)
+  
+GrizzlyBear_TW:
+  groups: Tier4,RawCarnivoreT1_TW,SizeLarge
+  
+ObsidianGolem_TW:
+  groups: Tier5,SizeLarge
+  consumeItems: IronOre,SilverOre,Onyx_TW,Diamond_TW,Emerald_TW
+  
+Prowler_TW:
+  groups: Tier5,RawCarnivoreT1_TW,SizeMedium
+  
+Shark_TW:
+  groups: Tier6,RawCarnivoreT1_TW,SizeMedium
+  
+
+##Bosses
+
+BossAsmodeus_TW:
+  groups: Tier4,RawCarnivoreT1_TW,SizeMedium
+
+BossSvalt_TW:
+  groups: Tier5,CookedCarnivoreT1_TW,SizeLarge
+  
+BossVrykolathas_TW:
+  groups: Tier6,RawCarnivoreT1_TW,SizeLarge
+
+##Monstrum Deep North Creatures
+
+ArcticGolem_TW:
+  groups: Tier7,OresFood_TW,SizeLarge
+
+#Daytime Creatures
+ArcticWolf_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+ArcticBat_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+ArcticBear_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+ArcticSerpent_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+  egg: chicken(2000:#14CCB9:1.8)
+ArcticMammoth_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeHuge
+JotunnBladefist_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+JotunnBrute_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+JotunnJuggernaut_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+JotunnShaman_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+FrostFenring_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+StormFenring_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+StormCultist_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+
+#Nighttime Creatures
+FireFenring_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+SurtrBrute_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+SurtrDrake_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+  egg: SurtrDrakeEgg_TW(2000:#EB6942:0.9)
+SurtrHound_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+SurtrImp_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeMedium
+SurtrLegionnaire_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+SurtrSeer_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+SurtrWarbringer_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+DaggerFang_TW:
+  groups: Tier7,CookedCarnivoreT2_TW,SizeLarge
+
+
+##Deep North Bosses
+
+BossGorr_TW:
+  groups: Tier8,CookedCarnivoreT2_TW,SizeHuge
+
+BossStormHerald_TW:
+  groups: Tier8,CookedCarnivoreT2_TW,SizeHuge
+  
+BossSythrak_TW:
+  groups: Tier8,CookedCarnivoreT2_TW,SizeHuge
+  
+BossBrutalis_TW:
+  groups: Tier8,CookedCarnivoreT2_TW,SizeHuge
