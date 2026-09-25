@@ -275,7 +275,6 @@ Specify a creature to be used as the child prefab.
   Seal:
   groups: Vegetarian, SizeMedium
   offspringPrefab: Seal_Pup
-
 ```
 
 
