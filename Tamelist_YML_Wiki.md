@@ -266,6 +266,18 @@ Use `_` for spaces.
   offspringName: Ulv_Pup
 ```
 
+## offspringPrefab
+
+Specify a creature to be used as the child prefab.
+
+
+```yaml
+  Seal:
+  groups: Vegetarian, SizeMedium
+  offspringPrefab: Seal_Pup
+
+```
+
 
 # Egg System
 
