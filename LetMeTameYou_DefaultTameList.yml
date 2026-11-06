@@ -277,6 +277,28 @@ group_AshlandsT2:
   consumeRange: 2.5
   consumeSearchRange: 20
   size: 2
+  
+group_DeepNorth:
+  tamingTime: 3100
+  fedDuration: 250
+  consumeItems: SealBlubber,MooseMeat
+  maxCreatures: 5
+  pregnancyDuration: 250
+  growTime: 3200
+  consumeRange: 2.5
+  consumeSearchRange: 20
+  size: 2
+  
+group_DeepNorthT2:
+  tamingTime: 3100
+  fedDuration: 250
+  consumeItems: CookedMooseMeat
+  maxCreatures: 5
+  pregnancyDuration: 250
+  growTime: 3200
+  consumeRange: 2.5
+  consumeSearchRange: 20
+  size: 2
 
 group_Bosses:
   maxCreatures: 4
@@ -429,9 +451,11 @@ StoneGolem:
 Dverger:
   groups: DvergerGroup
   consumeItems: MushroomOmelette,MisthareSupreme,FishAndBread,HoneyGlazedChicken,MeatPlatter,Salad
+  trade: BlackCore:10,FishAndBread:5
 
-DvergerMage,DvergerMageFire,DvergerMageIce,DvergerMageSupport,DvergerAshlands:
+DvergerMage,DvergerMageFire,DvergerMageIce,DvergerMageSupport,DvergerAshlands,DvergerDeepNorth:
   groups: DvergerGroup
+  trade: BlackCore:10,FishAndBread:5
 
 Seeker:
   groups: Tier6,SizeMedium
@@ -464,7 +488,7 @@ Gjall:
   fedDuration: 300
 
 Hare:
-  groups: SizeMedium
+  groups: Vegetarian, SizeMedium
   tamingTime: 2000
   pregnancyDuration: 60
   growTime: 2300
@@ -504,6 +528,7 @@ Volture:
 #  groups: Ashlands
 #  consumeItems: Vineberry,Fiddleheadfern,MushroomSmokePuff,MushroomJotunPuffs,Salad,ScorchingMedley,SpicyMarmalade
 #  commandable: false
+#  egg: AsksvinEgg(1800:#FFFFFF:1)
 
 BlobLava:
   groups: Ashlands
@@ -523,6 +548,57 @@ FallenValkyrie:
   growTime: 2200
   egg: chicken(1900:#F1B5A5:3)
 
+
+#Deep North
+Seal:
+  groups: Vegetarian, SizeMedium
+  tamingTime: 2000
+  pregnancyDuration: 60
+  growTime: 2300
+  maxCreatures: 7
+  pregnancyChance: 0.33
+  offspringPrefab: Seal_Pup
+
+
+#Moose:
+#  groups: DeepNorth
+#  commandable: false
+#  consumeItems: Lingonberry
+
+GoblinDeepNorth:
+  groups: Tier4,GoblinGroup,SizeMedium
+
+Elaking:
+  groups: DeepNorth
+  Size: 1.7
+
+ElakingMole:
+  groups: DeepNorth
+
+
+BlobMorkMini:
+  groups: DeepNorth
+  tamingTime: 4000
+  procreation: false
+
+BlobMork:
+  groups: DeepNorth
+  tamingTime: 4000
+  offspringPrefab: BlobMorkMini
+  growTime: 180
+  
+Barka:
+  groups: DeepNorthT2
+  Size: 3
+
+JotunWitch:
+  groups: DeepNorthT2
+
+TrollFrost:
+  groups: DeepNorthT2,SizeHuge
+
+JotunWarriorDualWield:
+  groups: DeepNorthT2
 
 ###MiniBosses###  (The nochest variants are the ones from raids)
 
@@ -567,7 +643,7 @@ BogWitchKvastur:
   growTime: 3400
   offspringName: Kvester
   requiredWorldKeys: defeated_bonemass
-  trade: TrophyKvastur=10
+  trade: TrophyKvastur:10
 
 
 ###Bosses### (by default, you need to defeat each boss before you are able to tame that specific boss)   
