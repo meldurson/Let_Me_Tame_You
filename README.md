@@ -2,7 +2,7 @@
 
 Complete overhaul of creature taming, extracted and expanded from **AllTameable**.
 
- ### ❗Note: This is in beta, so there may be some bugs
+
 ---
 
 ## ✨ Features
@@ -15,6 +15,7 @@ Complete overhaul of creature taming, extracted and expanded from **AllTameable*
 * 🧩 Modular **group-based** settings
 * 🎯 Control **taming requirements, factions, and behavior**
 * 🤝 Designed for **mod compatibility**
+* 🎁 **Trading is back!**
 
 ---
 
@@ -29,10 +30,10 @@ Complete overhaul of creature taming, extracted and expanded from **AllTameable*
 
 This mod focuses purely on **taming mechanics**. If you want the full overhaul experience that **AllTameable** added, check out:
 
-### 🐉 Creature Genetics: 
+### [🐉 Creature Genetics:](https://thunderstore.io/c/valheim/p/Meldurson/CreatureGenetics/)
 * Advanced breeding and genetic changes
 
-### 🛠 TamingTools: 
+### [🛠 TamingTools: ](https://thunderstore.io/c/valheim/p/Meldurson/TamingTools/)
 * Adds taming meads and food to improve taming
 
 ---
@@ -149,7 +150,7 @@ You can then edit this file to your hearts content!
 
 ## 🚧 Planned Features
 
-* Expanded **trading-based taming**
+* ~Expanded **trading-based taming**~
 * Better modded creature support
 
 ---
@@ -157,10 +158,11 @@ You can then edit this file to your hearts content!
 
 
 ## ❓Contact:
-The most reliable way to reach out would be to ping me in the [Valheim Modding Discord](https://discord.com/invite/GUEBuCuAMz) under @Meldurson. or dm me on Discord.
+The most reliable way to reach out would be to ping me in the [Valheim Modding Discord](https://discord.com/invite/X3thsRXAJD) under @Meldurson. or dm me on Discord.
 
 If you want to support me you can do so through my Ko-fi account:
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/B0B3NARM0)
+
 
 
