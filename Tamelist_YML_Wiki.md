@@ -308,7 +308,7 @@ __Meaning:__ The egg will be a copy of the Dragon Egg that is 30% the size and g
 *\*For hex codes, you can use [this website](https://htmlcolorcodes.com/) 
 
 
-# Trading Taming (Experimental)
+# Trading Taming
 
 Allows creatures to be tamed by **trading items instead of feeding**.
 
