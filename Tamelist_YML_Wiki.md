@@ -315,13 +315,13 @@ Allows creatures to be tamed by **trading items instead of feeding**.
 Format:
 
 ```yaml
-  trade: Item=Amount:Item=Amount
+  trade: Item:Amount,Item:Amount
 ```
 
 Example:
 
 ```yaml
-  trade: TrophyKvastur=10:YggdrasilWood=100
+  trade: BlackCore:10,FishAndBread:5
 ```
 
 
